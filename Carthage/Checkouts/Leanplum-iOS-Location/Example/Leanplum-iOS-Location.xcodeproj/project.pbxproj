@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07097ED11F9E792D00BBD905 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07097EC61F9E792D00BBD905 /* InfoPlist.strings */; };
+		07097ED21F9E792D00BBD905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07097ECB1F9E792D00BBD905 /* Main.storyboard */; };
+		07097ED31F9E792D00BBD905 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07097ECC1F9E792D00BBD905 /* main.m */; };
+		07097ED41F9E792D00BBD905 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07097ECD1F9E792D00BBD905 /* Images.xcassets */; };
+		07097ED51F9E792D00BBD905 /* LPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07097ECE1F9E792D00BBD905 /* LPAppDelegate.m */; };
+		07097ED61F9E792D00BBD905 /* LPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07097ECF1F9E792D00BBD905 /* LPViewController.m */; };
+		07097EE41F9E793C00BBD905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07097EDA1F9E793C00BBD905 /* Assets.xcassets */; };
+		07097EE51F9E793C00BBD905 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07097EDB1F9E793C00BBD905 /* ViewController.m */; };
+		07097EE61F9E793C00BBD905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07097EDC1F9E793C00BBD905 /* LaunchScreen.storyboard */; };
+		07097EE71F9E793C00BBD905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07097EDE1F9E793C00BBD905 /* Main.storyboard */; };
+		07097EE81F9E793C00BBD905 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07097EE01F9E793C00BBD905 /* main.m */; };
+		07097EE91F9E793C00BBD905 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07097EE11F9E793C00BBD905 /* AppDelegate.m */; };
+		07E5C8F91F053D5700A4B092 /* GeofencingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E5C8F81F053D5700A4B092 /* GeofencingTest.m */; };
+		07E5C8FC1F053E0000A4B092 /* regionData.json in Resources */ = {isa = PBXBuildFile; fileRef = 07E5C8FB1F053E0000A4B092 /* regionData.json */; };
+		07E5C8FD1F053E0000A4B092 /* regionData.json in Resources */ = {isa = PBXBuildFile; fileRef = 07E5C8FB1F053E0000A4B092 /* regionData.json */; };
+		5465FA82FBF1D0EFE0351232 /* Pods_Leanplum_iOS_Location_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6320CCD645EAF7873EA8BF0 /* Pods_Leanplum_iOS_Location_Example.framework */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		AD9EB7E39DFDEDD7B6941483 /* Pods_Leanplum_iOS_LocationAndBeacons_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DD2BD1D494271A6DC745EB /* Pods_Leanplum_iOS_LocationAndBeacons_Example.framework */; };
+		B54A425B1D750AEE00B8257E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		B54A425C1D750AEE00B8257E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		B54A425D1D750AEE00B8257E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		C7AB1CB7EDB5BA7AA8D6F41D /* Pods_Leanplum_iOS_LocationAndBeacons_Example_Leanplum_iOS_Location_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E8568B85CA93301CD56CF8 /* Pods_Leanplum_iOS_LocationAndBeacons_Example_Leanplum_iOS_Location_Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07097E771F9E4FBB00BBD905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54A42511D750AEE00B8257E;
+			remoteInfo = "Leanplum-iOS-LocationAndBeacons_Example";
+		};
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = "Leanplum-iOS-Location";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FBBC1EC376C6ABCC9149A7 /* Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests/Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		07097EC71F9E792D00BBD905 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07097EC81F9E792D00BBD905 /* LPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPAppDelegate.h; sourceTree = "<group>"; };
+		07097EC91F9E792D00BBD905 /* Leanplum-iOS-Location-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Leanplum-iOS-Location-Prefix.pch"; sourceTree = "<group>"; };
+		07097ECA1F9E792D00BBD905 /* LPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPViewController.h; sourceTree = "<group>"; };
+		07097ECB1F9E792D00BBD905 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		07097ECC1F9E792D00BBD905 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07097ECD1F9E792D00BBD905 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07097ECE1F9E792D00BBD905 /* LPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPAppDelegate.m; sourceTree = "<group>"; };
+		07097ECF1F9E792D00BBD905 /* LPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPViewController.m; sourceTree = "<group>"; };
+		07097ED01F9E792D00BBD905 /* Leanplum-iOS-Location-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Leanplum-iOS-Location-Info.plist"; sourceTree = "<group>"; };
+		07097ED91F9E793C00BBD905 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07097EDA1F9E793C00BBD905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07097EDB1F9E793C00BBD905 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07097EDD1F9E793C00BBD905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07097EDF1F9E793C00BBD905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07097EE01F9E793C00BBD905 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07097EE11F9E793C00BBD905 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07097EE21F9E793C00BBD905 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07097EE31F9E793C00BBD905 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07E5C8F81F053D5700A4B092 /* GeofencingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeofencingTest.m; sourceTree = "<group>"; };
+		07E5C8FB1F053E0000A4B092 /* regionData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = regionData.json; sourceTree = "<group>"; };
+		4763DA6DDBAE82F809FB7AB7 /* Pods-Leanplum-iOS-Location_Example-Leanplum-iOS-Location_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leanplum-iOS-Location_Example-Leanplum-iOS-Location_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Leanplum-iOS-Location_Example-Leanplum-iOS-Location_Tests/Pods-Leanplum-iOS-Location_Example-Leanplum-iOS-Location_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		47A54FC050E0005E9DA63AC1 /* Pods-Leanplum-iOS-LocationAndBeacons_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leanplum-iOS-LocationAndBeacons_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Leanplum-iOS-LocationAndBeacons_Example/Pods-Leanplum-iOS-LocationAndBeacons_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4EA84F1219043A392A6F4376 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		56B63864F65CBCBAB0AA3195 /* Pods-Leanplum-iOS-Location_Example-Leanplum-iOS-Location_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leanplum-iOS-Location_Example-Leanplum-iOS-Location_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Leanplum-iOS-Location_Example-Leanplum-iOS-Location_Tests/Pods-Leanplum-iOS-Location_Example-Leanplum-iOS-Location_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		59B1F8AC10E6FFD03FC20644 /* libPods-Leanplum-iOS-Location_Example-Leanplum-iOS-Location_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Leanplum-iOS-Location_Example-Leanplum-iOS-Location_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* Leanplum-iOS-Location_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leanplum-iOS-Location_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F5AE195388D20070C39A /* Leanplum-iOS-Location_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leanplum-iOS-Location_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		70E8568B85CA93301CD56CF8 /* Pods_Leanplum_iOS_LocationAndBeacons_Example_Leanplum_iOS_Location_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leanplum_iOS_LocationAndBeacons_Example_Leanplum_iOS_Location_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A6A1E7955C4B18FC261A3C /* Pods-Leanplum-iOS-Location_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leanplum-iOS-Location_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Leanplum-iOS-Location_Example/Pods-Leanplum-iOS-Location_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		837FBA10D2027CAB2712AF8C /* Pods-Leanplum-iOS-Location_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leanplum-iOS-Location_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Leanplum-iOS-Location_Tests/Pods-Leanplum-iOS-Location_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		90DD2BD1D494271A6DC745EB /* Pods_Leanplum_iOS_LocationAndBeacons_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leanplum_iOS_LocationAndBeacons_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9146AF5281BE07B7711776EE /* Leanplum-iOS-Location.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "Leanplum-iOS-Location.podspec"; path = "../Leanplum-iOS-Location.podspec"; sourceTree = "<group>"; };
+		9A7D6243D90C90EA69FFE243 /* Pods_Leanplum_iOS_Location_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leanplum_iOS_Location_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62F1494591BF3A5439300C7 /* Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests/Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B54A42681D750AEE00B8257E /* Leanplum-iOS-LocationAndBeacons_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leanplum-iOS-LocationAndBeacons_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56C17381D6673DD00DAE3BC /* Leanplum.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Leanplum.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Leanplum-iOS-Location-cwbzviqzqnnzqubmsmrqunzqduii/Build/Products/Debug-iphonesimulator/Leanplum-iOS-SDK/Leanplum.framework"; sourceTree = "<group>"; };
+		B56C173A1D66740E00DAE3BC /* Pods_Leanplum_iOS_Location_Example_Leanplum_iOS_Location_Tests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Leanplum_iOS_Location_Example_Leanplum_iOS_Location_Tests.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Leanplum-iOS-Location-cwbzviqzqnnzqubmsmrqunzqduii/Build/Products/Debug-iphonesimulator/Pods_Leanplum_iOS_Location_Example_Leanplum_iOS_Location_Tests.framework"; sourceTree = "<group>"; };
+		B56C173B1D66740E00DAE3BC /* Pods_Leanplum_iOS_Location_Example.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Leanplum_iOS_Location_Example.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Leanplum-iOS-Location-cwbzviqzqnnzqubmsmrqunzqduii/Build/Products/Debug-iphonesimulator/Pods_Leanplum_iOS_Location_Example.framework"; sourceTree = "<group>"; };
+		C3F79DF45882D7CD1A9AA59A /* Pods-Leanplum-iOS-LocationAndBeacons_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leanplum-iOS-LocationAndBeacons_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Leanplum-iOS-LocationAndBeacons_Example/Pods-Leanplum-iOS-LocationAndBeacons_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C6320CCD645EAF7873EA8BF0 /* Pods_Leanplum_iOS_Location_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leanplum_iOS_Location_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAED33E2EE474061519ECB8 /* Pods-Leanplum-iOS-Location_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leanplum-iOS-Location_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Leanplum-iOS-Location_Tests/Pods-Leanplum-iOS-Location_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6A26363379F551BEB089032 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FAADBA52405C580A633894A8 /* Pods-Leanplum-iOS-Location_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leanplum-iOS-Location_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Leanplum-iOS-Location_Example/Pods-Leanplum-iOS-Location_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				5465FA82FBF1D0EFE0351232 /* Pods_Leanplum_iOS_Location_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				C7AB1CB7EDB5BA7AA8D6F41D /* Pods_Leanplum_iOS_LocationAndBeacons_Example_Leanplum_iOS_Location_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54A42591D750AEE00B8257E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54A425B1D750AEE00B8257E /* CoreGraphics.framework in Frameworks */,
+				B54A425C1D750AEE00B8257E /* UIKit.framework in Frameworks */,
+				B54A425D1D750AEE00B8257E /* Foundation.framework in Frameworks */,
+				AD9EB7E39DFDEDD7B6941483 /* Pods_Leanplum_iOS_LocationAndBeacons_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07097EC51F9E792D00BBD905 /* LeanplumLocationExample */ = {
+			isa = PBXGroup;
+			children = (
+				07097EC61F9E792D00BBD905 /* InfoPlist.strings */,
+				07097EC81F9E792D00BBD905 /* LPAppDelegate.h */,
+				07097EC91F9E792D00BBD905 /* Leanplum-iOS-Location-Prefix.pch */,
+				07097ECA1F9E792D00BBD905 /* LPViewController.h */,
+				07097ECB1F9E792D00BBD905 /* Main.storyboard */,
+				07097ECC1F9E792D00BBD905 /* main.m */,
+				07097ECD1F9E792D00BBD905 /* Images.xcassets */,
+				07097ECE1F9E792D00BBD905 /* LPAppDelegate.m */,
+				07097ECF1F9E792D00BBD905 /* LPViewController.m */,
+				07097ED01F9E792D00BBD905 /* Leanplum-iOS-Location-Info.plist */,
+			);
+			path = LeanplumLocationExample;
+			sourceTree = "<group>";
+		};
+		07097ED81F9E793C00BBD905 /* LeanplumLocationAndBeaconsExample */ = {
+			isa = PBXGroup;
+			children = (
+				07097ED91F9E793C00BBD905 /* AppDelegate.h */,
+				07097EDA1F9E793C00BBD905 /* Assets.xcassets */,
+				07097EDB1F9E793C00BBD905 /* ViewController.m */,
+				07097EDC1F9E793C00BBD905 /* LaunchScreen.storyboard */,
+				07097EDE1F9E793C00BBD905 /* Main.storyboard */,
+				07097EE01F9E793C00BBD905 /* main.m */,
+				07097EE11F9E793C00BBD905 /* AppDelegate.m */,
+				07097EE21F9E793C00BBD905 /* Info.plist */,
+				07097EE31F9E793C00BBD905 /* ViewController.h */,
+			);
+			path = LeanplumLocationAndBeaconsExample;
+			sourceTree = "<group>";
+		};
+		07E5C8F71F053D4800A4B092 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				07E5C8F81F053D5700A4B092 /* GeofencingTest.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		07E5C8FA1F053E0000A4B092 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07E5C8FB1F053E0000A4B092 /* regionData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				07097ED81F9E793C00BBD905 /* LeanplumLocationAndBeaconsExample */,
+				07097EC51F9E792D00BBD905 /* LeanplumLocationExample */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				E57DDC753D8FF1612C799D80 /* Pods */,
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F58B195388D20070C39A /* Products */,
+				6003F5B5195388D20070C39A /* Tests */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* Leanplum-iOS-Location_Example.app */,
+				6003F5AE195388D20070C39A /* Leanplum-iOS-Location_Tests.xctest */,
+				B54A42681D750AEE00B8257E /* Leanplum-iOS-LocationAndBeacons_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B56C173A1D66740E00DAE3BC /* Pods_Leanplum_iOS_Location_Example_Leanplum_iOS_Location_Tests.framework */,
+				B56C173B1D66740E00DAE3BC /* Pods_Leanplum_iOS_Location_Example.framework */,
+				B56C17381D6673DD00DAE3BC /* Leanplum.framework */,
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				9A7D6243D90C90EA69FFE243 /* Pods_Leanplum_iOS_Location_Tests.framework */,
+				59B1F8AC10E6FFD03FC20644 /* libPods-Leanplum-iOS-Location_Example-Leanplum-iOS-Location_Tests.a */,
+				90DD2BD1D494271A6DC745EB /* Pods_Leanplum_iOS_LocationAndBeacons_Example.framework */,
+				70E8568B85CA93301CD56CF8 /* Pods_Leanplum_iOS_LocationAndBeacons_Example_Leanplum_iOS_Location_Tests.framework */,
+				C6320CCD645EAF7873EA8BF0 /* Pods_Leanplum_iOS_Location_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				07E5C8FA1F053E0000A4B092 /* Resources */,
+				07E5C8F71F053D4800A4B092 /* Classes */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				9146AF5281BE07B7711776EE /* Leanplum-iOS-Location.podspec */,
+				F6A26363379F551BEB089032 /* README.md */,
+				4EA84F1219043A392A6F4376 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		E57DDC753D8FF1612C799D80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72A6A1E7955C4B18FC261A3C /* Pods-Leanplum-iOS-Location_Example.debug.xcconfig */,
+				FAADBA52405C580A633894A8 /* Pods-Leanplum-iOS-Location_Example.release.xcconfig */,
+				EAAED33E2EE474061519ECB8 /* Pods-Leanplum-iOS-Location_Tests.debug.xcconfig */,
+				837FBA10D2027CAB2712AF8C /* Pods-Leanplum-iOS-Location_Tests.release.xcconfig */,
+				56B63864F65CBCBAB0AA3195 /* Pods-Leanplum-iOS-Location_Example-Leanplum-iOS-Location_Tests.debug.xcconfig */,
+				4763DA6DDBAE82F809FB7AB7 /* Pods-Leanplum-iOS-Location_Example-Leanplum-iOS-Location_Tests.release.xcconfig */,
+				47A54FC050E0005E9DA63AC1 /* Pods-Leanplum-iOS-LocationAndBeacons_Example.debug.xcconfig */,
+				C3F79DF45882D7CD1A9AA59A /* Pods-Leanplum-iOS-LocationAndBeacons_Example.release.xcconfig */,
+				A62F1494591BF3A5439300C7 /* Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests.debug.xcconfig */,
+				02FBBC1EC376C6ABCC9149A7 /* Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* Leanplum-iOS-Location_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "Leanplum-iOS-Location_Example" */;
+			buildPhases = (
+				72D977E254BF86E7E24AC9F1 /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				592D70294D8E6FFBC8261882 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Leanplum-iOS-Location_Example";
+			productName = "Leanplum-iOS-Location";
+			productReference = 6003F58A195388D20070C39A /* Leanplum-iOS-Location_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* Leanplum-iOS-Location_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Leanplum-iOS-Location_Tests" */;
+			buildPhases = (
+				0E5C74789A33433CCE6AFA75 /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				F913DCE75FD3C1F529F54A2C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+				07097E781F9E4FBB00BBD905 /* PBXTargetDependency */,
+			);
+			name = "Leanplum-iOS-Location_Tests";
+			productName = "Leanplum-iOS-LocationTests";
+			productReference = 6003F5AE195388D20070C39A /* Leanplum-iOS-Location_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B54A42511D750AEE00B8257E /* Leanplum-iOS-LocationAndBeacons_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54A42651D750AEE00B8257E /* Build configuration list for PBXNativeTarget "Leanplum-iOS-LocationAndBeacons_Example" */;
+			buildPhases = (
+				321CA2E34919B7E8FD4FAD09 /* [CP] Check Pods Manifest.lock */,
+				B54A42531D750AEE00B8257E /* Sources */,
+				B54A42591D750AEE00B8257E /* Frameworks */,
+				B54A425F1D750AEE00B8257E /* Resources */,
+				F71DE75F8F3BAC9F3B2A0DA7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Leanplum-iOS-LocationAndBeacons_Example";
+			productName = "Leanplum-iOS-Location";
+			productReference = B54A42681D750AEE00B8257E /* Leanplum-iOS-LocationAndBeacons_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LP;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ben Marten";
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4XLWYATZ5P;
+					};
+					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = 2F7DW8VV69;
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+					B54A42511D750AEE00B8257E = {
+						DevelopmentTeam = 4XLWYATZ5P;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "Leanplum-iOS-Location" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* Leanplum-iOS-Location_Example */,
+				B54A42511D750AEE00B8257E /* Leanplum-iOS-LocationAndBeacons_Example */,
+				6003F5AD195388D20070C39A /* Leanplum-iOS-Location_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07097ED21F9E792D00BBD905 /* Main.storyboard in Resources */,
+				07097ED41F9E792D00BBD905 /* Images.xcassets in Resources */,
+				07E5C8FC1F053E0000A4B092 /* regionData.json in Resources */,
+				07097ED11F9E792D00BBD905 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				07E5C8FD1F053E0000A4B092 /* regionData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54A425F1D750AEE00B8257E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07097EE71F9E793C00BBD905 /* Main.storyboard in Resources */,
+				07097EE41F9E793C00BBD905 /* Assets.xcassets in Resources */,
+				07097EE61F9E793C00BBD905 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E5C74789A33433CCE6AFA75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		321CA2E34919B7E8FD4FAD09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Leanplum-iOS-LocationAndBeacons_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		592D70294D8E6FFBC8261882 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Leanplum-iOS-Location_Example/Pods-Leanplum-iOS-Location_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Leanplum-iOS-Location/LeanplumLocation.framework",
+				"${BUILT_PRODUCTS_DIR}/Leanplum-iOS-SDK/Leanplum.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LeanplumLocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Leanplum.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leanplum-iOS-Location_Example/Pods-Leanplum-iOS-Location_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72D977E254BF86E7E24AC9F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Leanplum-iOS-Location_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F71DE75F8F3BAC9F3B2A0DA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Leanplum-iOS-LocationAndBeacons_Example/Pods-Leanplum-iOS-LocationAndBeacons_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Leanplum-iOS-SDK/Leanplum.framework",
+				"${BUILT_PRODUCTS_DIR}/Leanplum-iOS-LocationAndBeacons/LeanplumLocationAndBeacons.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Leanplum.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LeanplumLocationAndBeacons.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leanplum-iOS-LocationAndBeacons_Example/Pods-Leanplum-iOS-LocationAndBeacons_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F913DCE75FD3C1F529F54A2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests/Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Leanplum-iOS-SDK/Leanplum.framework",
+				"${BUILT_PRODUCTS_DIR}/Leanplum-iOS-LocationAndBeacons/LeanplumLocationAndBeacons.framework",
+				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Leanplum.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LeanplumLocationAndBeacons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests/Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07097ED51F9E792D00BBD905 /* LPAppDelegate.m in Sources */,
+				07097ED31F9E792D00BBD905 /* main.m in Sources */,
+				07097ED61F9E792D00BBD905 /* LPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E5C8F91F053D5700A4B092 /* GeofencingTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54A42531D750AEE00B8257E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07097EE81F9E793C00BBD905 /* main.m in Sources */,
+				07097EE51F9E793C00BBD905 /* ViewController.m in Sources */,
+				07097EE91F9E793C00BBD905 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07097E781F9E4FBB00BBD905 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54A42511D750AEE00B8257E /* Leanplum-iOS-LocationAndBeacons_Example */;
+			targetProxy = 07097E771F9E4FBB00BBD905 /* PBXContainerItemProxy */;
+		};
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* Leanplum-iOS-Location_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07097EC61F9E792D00BBD905 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07097EC71F9E792D00BBD905 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07097EDC1F9E793C00BBD905 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07097EDD1F9E793C00BBD905 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		07097EDE1F9E793C00BBD905 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07097EDF1F9E793C00BBD905 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/BuildHeaders\"/**";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/BuildHeaders\"/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A6A1E7955C4B18FC261A3C /* Pods-Leanplum-iOS-Location_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BITCODE_GENERATION_MODE = "$(inherited)";
+				DEVELOPMENT_TEAM = 4XLWYATZ5P;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeanplumLocationExample/Leanplum-iOS-Location-Prefix.pch";
+				INFOPLIST_FILE = "LeanplumLocationExample/Leanplum-iOS-Location-Info.plist";
+				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAADBA52405C580A633894A8 /* Pods-Leanplum-iOS-Location_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BITCODE_GENERATION_MODE = "$(inherited)";
+				DEVELOPMENT_TEAM = 4XLWYATZ5P;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeanplumLocationExample/Leanplum-iOS-Location-Prefix.pch";
+				INFOPLIST_FILE = "LeanplumLocationExample/Leanplum-iOS-Location-Info.plist";
+				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62F1494591BF3A5439300C7 /* Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BITCODE_GENERATION_MODE = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2F7DW8VV69;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leanplum-iOS-Location_Example.app/Leanplum-iOS-Location_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FBBC1EC376C6ABCC9149A7 /* Pods-Leanplum-iOS-LocationAndBeacons_Example-Leanplum-iOS-Location_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BITCODE_GENERATION_MODE = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2F7DW8VV69;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leanplum-iOS-Location_Example.app/Leanplum-iOS-Location_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		B54A42661D750AEE00B8257E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A54FC050E0005E9DA63AC1 /* Pods-Leanplum-iOS-LocationAndBeacons_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BITCODE_GENERATION_MODE = "$(inherited)";
+				DEVELOPMENT_TEAM = 4XLWYATZ5P;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"LP_BEACONS=1",
+				);
+				INFOPLIST_FILE = LeanplumLocationAndBeaconsExample/Info.plist;
+				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B54A42671D750AEE00B8257E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F79DF45882D7CD1A9AA59A /* Pods-Leanplum-iOS-LocationAndBeacons_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BITCODE_GENERATION_MODE = "$(inherited)";
+				DEVELOPMENT_TEAM = 4XLWYATZ5P;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"LP_BEACONS=1",
+				);
+				INFOPLIST_FILE = LeanplumLocationAndBeaconsExample/Info.plist;
+				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "Leanplum-iOS-Location" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "Leanplum-iOS-Location_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Leanplum-iOS-Location_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54A42651D750AEE00B8257E /* Build configuration list for PBXNativeTarget "Leanplum-iOS-LocationAndBeacons_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54A42661D750AEE00B8257E /* Debug */,
+				B54A42671D750AEE00B8257E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "2.6.3",
+  "iOS" : [
+    {
+      "name" : "LeanplumLocation",
+      "hash" : "f5c4c15ca0aa02443f5b4d667caefeafa7ad3ff0c3cd91e7f8a76c385ceab2a0"
+    }
+  ]
+}
